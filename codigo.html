@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+<body>
+   
+    <h1>Registro</h1>
+
+    <form action="https://www.teletiendaonline.com/?gclid=CjwKCAjwzvX7BRAeEiwAsXExo64X5obCxFFtmOWKEM_5vNLbuldlReb6o4AjlAQBpAwaP8aQqzC0HRoCML8QAvD_BwE" method="get">
+        <p>
+            Nombre: <input type="text" name="nombre" size="30"  placeholder="Pedro" required> 
+            Apellido: <input type="text" name="apellido" size="30"  placeholder="Muñoz" required>
+        </p> 
+
+        <p>
+            Hombre <input type="radio" name="hm" value="h">
+            Mujer <input type="radio" name="mj" value="m">
+            Otro <input type="radio" name="ot" value="o">   
+        </p>
+
+        <p>
+        Email: <input type="email" name="correo" size="40" placeholder="Tu email" required>
+        Contraseña: <input type="password" name="password" minlength="5" maxlength="10" placeholder="Tu contraseña">
+        </p>
+
+        
+        Fecha: <input type="date" name="fecha">
+
+        <br><br>
+        
+        Acepto las condiciones de uso <input type="checkbox" name="casilla">
+
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
